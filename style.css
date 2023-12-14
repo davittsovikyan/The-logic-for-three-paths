@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    display: inline-block;
+    width: 80px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+}
+.cotainer div{
+    background-color: brown;
+}
+input{
+    font-size: 20px;
+    font-family: cotainer;
+    outline: none;
+}
+select{
+    margin-top: 20px;
+    width: 297px;
+    font-size: 20px;
+    font-family: cotainer;
+    outline: none;
+    margin-left: 82px;
+}
+.cotainers{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 5px;
+width: 100px;
+height: 100vh;
+}
+.btn{
+    margin-top: 20px;
+    font-family: cotainer;
+    font-size: 20px;
+    padding: 5px, 20px;
+    cursor: pointer;
+    margin-left: 82px;
+}
+.btn:hover{
+    background-color: silver;
+    transition: 0.1s linear;
+}
+.btn:active{
+    box-shadow: 2px 2px 2px 2px silver;
+    border-radius: 15px;
+}
