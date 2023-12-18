@@ -10,19 +10,19 @@ label{
     font-family: cursive;
     color: white;
 }
-.cotainer div{
+.cotainers div{
     background-color: brown;
 }
 input{
     font-size: 20px;
-    font-family: cotainer;
+    font-family: cursive;
     outline: none;
 }
 select{
     margin-top: 20px;
     width: 297px;
     font-size: 20px;
-    font-family: cotainer;
+    font-family: cursive;
     outline: none;
     margin-left: 82px;
 }
@@ -30,7 +30,7 @@ select{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-gap: 5px;
-width: 100px;
+width: 100%;
 height: 100vh;
 }
 .btn{
